@@ -1,26 +1,19 @@
-/* CSS Code */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image: url(/triciadev.github.io/img/cover.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
 
-body {
-    font-family: sans-serif;
-    color: black;
-}
-a{
-    color: aqua;
-}
-a:hover{
-    color: aqua;
-    text-decoration: none;
-}
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Times New Roman', Times, serif;
-}
-#header {
-    background: rgb(245, 243, 243);
-    padding: 15px;
-}
-img{
-    width: 200px;
-    height: 200px;
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
 }
 .nav-menu ul{
     margin: 0;
@@ -47,86 +40,18 @@ button{
 button:hover{
     background-color: #fff;
 }
-div.container{
-    height: 90px;
+.main{
+    max-width: 1200px;
+    margin: auto;
 }
-#footer{
-    height: 1000px;
-}
-.background-image {
-    height: 900px; 
-    background-image: url('/triciadev.github.io/img/cover.jpg');
-    background-size: cover; 
-    background-position: center; 
-  }
-  .text-container {
+.title{
     position: absolute;
-    top: 50%; 
-    left: 22.5%; 
-    transform: translate(-50%, -50%); 
-  }
-  .text-container h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
     font-size: 70px;
-    color: white;
-    text-align: center;
     font-weight: bold;
-  }
-  
-  .text-container p {
-    font-size: 35px;
-    color: white;
-    text-align: center;
-  }
-  .card{
-    height: 50vh;
-    margin: 80px;
-    margin-top: 50px;
-    width: 1050px;
-    box-shadow: 5px 5px 20px black;
-}
-.card:hover{
-    cursor: pointer;
-}
-.card:hover .intro{
-    height: 220px;
-    bottom: 240px;
-    background: black;
-}
-.card:hover p{
-    opacity: 1;
-    visibility: visible;
-}
-.card:hover img{
-    transform: scale(1.1) rotate(-3deg);
-}
-.card img{
-    width: 1050px;
-    height: 600px;
-}
-span{
-    font-weight: bold;
-}
-p.sentence{
-    font-size: 20px;
-    margin: 20px;
-    visibility: hidden;
-    opacity: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-.intro{
-    height: 50px;
-    width: 350px;
-    padding: 6px;
-    box-sizing: border-box;
-    position: relative;
-    bottom: 4px;
-    background: rgb(27,27,27,.5);
-    color: white;
-    transition: .5s;
-    margin-bottom: 50px;
-}
-div.background{
-    background-image: url(/triciadev.github.io/img/pexels-robert-golebiewski-3663999.jpg);
-    background-size: cover; 
-    background-position: center; 
 }
