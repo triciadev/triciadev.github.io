@@ -41,27 +41,6 @@ nav{
 	z-index: 999999;
 }
 
-.logo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 4rem;
-	width: 15%;
-	font-weight: 700;
-	background: var(--primary-color);
-	position: absolute;
-
-}
-
-.logo::before{
-	content: "Iron";
-	color: white;
-}
-.logo::after{
-	content: "Fitness";
-	color: black;
-}
-
 ul{
 	display: flex;
 	align-items: center;
@@ -215,19 +194,96 @@ ul a:hover{
 }
 
 @media screen and (max-width:600px){
-	.logo{
-		font-size: 10px;
-	}
 	.row{
 		font-size: 10px;
 	}
 	ul{
 		margin-left: 30px ;
-		word-spacing: 10rem;
+		padding: 10px;
 	}
+	
 }
 @media screen and (max-width:768px){
 	.logo{
 		width: 18%;
 	}
 }
+li{
+	list-style: none;
+  }
+  a{
+	color: #072e33;
+	text-decoration: none;
+  }
+  .navbar{
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+  }
+  .nav-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+  }
+  
+.nav-branding::before{
+	content: "Iron";
+	color: white;
+}
+.nav-branding::after{
+	content: "Fitness";
+	color: #072e33;
+	font-size: 20px;
+	font-weight: bold;
+}
+  .nav-link{
+	transition: 0.7s ease;
+  }
+  
+  .nav-link:hover{
+	color: #072e33;
+  }
+  .hamburger{
+	display: none;
+	cursor: pointer;
+  }
+  .bar{
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	background-color: #072e33;
+  }
+  @media(max-width:768px) {
+	.hamburger{
+	  display: block;
+	}
+	
+	.hamburger.active .bar:nth-child(2){
+	  opacity: 0;
+	}
+	.hamburger.active bar:nth-child(1){
+	  transform: translate(-8px) rotate(-45deg);
+	}
+	.nav-menu{
+	  position: fixed;
+	  left: -100%;
+	  top: 70px;
+	  gap: 0;
+	  flex-direction: column;
+	  background-color: #072e33;
+	  width: 100%;
+	  text-align: center;
+	  transition: 0.3s;
+	}
+	.nav-item{
+	  margin: 16px 0;
+	}
+	.nav-menu.active{
+	  left: 0;
+	}
+  }
