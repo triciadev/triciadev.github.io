@@ -65,7 +65,7 @@ ul a:hover{
 }
 
 .banner{
-	background: url(/triciadev.github.io/img/gymw.jpg);
+	background: url(/triciadev.github.io/img/gymw.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -315,6 +315,7 @@ li{
 .nav-branding::before{
 	content: "Iron";
 	color: white;
+	font-size: 20px;
 }
 .nav-branding::after{
 	content: "Fitness";
@@ -385,7 +386,7 @@ li{
 body.pricing-body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
-    background-image: url(/triciadev.github.io/img/pexels-leon-ardho-1552242\ \(1\).jpg);
+    background-image: url(../triciadev.github.io/img/pexels-leon-ardho-1552242\ \(1\).jpg);
     background-size: cover;
     width: auto;
 	background-attachment: fixed;
@@ -915,7 +916,7 @@ strong{
     font-family: 'Josefin Sans', sans-serif;
 }
 body{
-    background-image: url(/triciadev.github.io/img/arm2.png);
+    background-image: url(../triciadev.github.io/img/arm2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1088,7 +1089,7 @@ h1{
     color: #072e33;
 }
 body.gallery-body{
-    background-image: url(/triciadev.github.io/img/cover2.jpg);
+    background-image: url(../triciadev.github.io/img/cover2.jpg);
     background-size: cover;
     margin: 0;
     padding: 0;
