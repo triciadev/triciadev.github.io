@@ -16,6 +16,7 @@ body{
     background-size: cover;
     width: auto;
 	background-attachment: fixed;
+	position: relative;
 }
 .container{
 	max-width: 1170px;
