@@ -509,7 +509,5 @@ strong{
 	color:#fff;
 }
 @media screen and (max-width: 600px){
-	#pricing-container .price-card--header {
-		font-size: 20000px;
-	}
+	
 }
