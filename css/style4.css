@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+body.about-body{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ body{
 }
 }
 
-#home{
+#home2{
 	padding: .6rem .8rem;
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;
@@ -66,7 +66,7 @@ body{
     border-radius: 10px;
     margin-left: 90px;
 }
-#home:hover{
+#home2:hover{
 	background: transparent;
     text-decoration: none;
 }

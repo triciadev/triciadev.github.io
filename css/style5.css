@@ -6,14 +6,17 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
+body.gallery-body{
     background-image: url(/triciadev.github.io/img/cover2.jpg);
     background-size: cover;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
 }
 
-.container{
+.container3{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,46 +25,46 @@ body{
   margin: 40px 20px 0 20px;
 }
 
-.container .heading{
+.container3 .heading{
   width: 50%;
   padding-bottom: 50px;
 }
-.container .heading h3{
+.container3 .heading h3{
   font-size: 3em;
   font-weight: bolder;
   padding-bottom: 10px;
   border-bottom: 3px solid #222;
 }
 
-.container .heading h3 span{
+.container3 .heading h3 span{
   font-weight: 100;
 }
-.container .box{
+.container3 .box{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
 }
 
-.container .box .dream{
+.container3 .box .dream{
   display: flex;
   flex-direction: column;
   width: 32.5%;
 }
 
-.container .box .dream img{
+.container3 .box .dream img{
   width: 100%;
   padding-bottom: 15px;
   border-radius: 5rem;
 }
 
-.container .btn{
+.container3 .btn{
   margin: 40px 0 70px 0;
   background: #222;
   padding: 15px 40px ;
   border-radius: 5px;
 }
 
-.container .btn a{
+.container3 .btn a{
  color: #fff;
  font-size: 1.2em;
  text-decoration: none;
@@ -69,20 +72,21 @@ body{
  letter-spacing: 3px;
 }
 
+
 @media only screen and (max-width: 769px){
-    .container .box{
+    .container3 .box{
    flex-direction: column;
   }
 
-.container .box .dream{
+.container3 .box .dream{
   width: 100%;
 }
 }
 @media only screen and (max-width: 600px){
-.container .heading{
+.container3 .heading{
   width: 100%;
 }
-.container .heading h3{
+.container3 .heading h3{
   font-size: 1em;
 
 }
@@ -90,7 +94,7 @@ body{
 h3{
     color: #fff;
 }
-.btn{
+.btn3{
 	padding: .6rem .8rem;
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;
@@ -104,7 +108,7 @@ h3{
 	cursor: pointer;
     border-radius: 10px;
 }
-.btn:hover{
+.btn3:hover{
 	background: transparent;
     text-decoration: none;
 }

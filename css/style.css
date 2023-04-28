@@ -112,6 +112,8 @@ ul a:hover{
 .container{
 	max-width: 1000px;
 	height: auto;
+	margin-left: 400px;
+	
 }
 .row-two{
 	display: flex;
@@ -123,10 +125,14 @@ ul a:hover{
 .footer{
 	background-color: #24262b;
     padding: 50px 5;
+	position: relative;
+	height: 300px;
+	
 }
 .footer-col{
    width: 25%;
    padding: 0 15px;
+   display: list-item;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -141,13 +147,15 @@ ul a:hover{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #0f969c;
+	background-color: #176b29;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
+	
 }
 .footer-col ul li:not(:last-child){
-	margin-bottom: 5px;
+	margin-bottom: 50px;
+	
 }
 .footer-col ul li a{
 	font-size: 16px;
@@ -156,7 +164,8 @@ ul a:hover{
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
-	display: block;
+	display: inline-block;
+	margin: 10px;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
@@ -288,3 +297,828 @@ li{
 	  left: 0;
 	}
   }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+:root{
+	--primary-color: #072e33;
+	--secondary-color: #636e72;
+	--font: 'Poppins', sans-serif;
+}
+body.pricing-body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+    background-image: url(/triciadev.github.io/img/pexels-leon-ardho-1552242\ \(1\).jpg);
+    background-size: cover;
+    width: auto;
+	background-attachment: fixed;
+	position: relative;
+}
+.container-two{
+	max-width: 1170px;
+	margin:auto;
+    margin-bottom: 150px;
+}
+#home{
+	padding: .6rem .8rem;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	background: #072e33;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid #072e33;
+	transition: .3s;
+	cursor: pointer;
+}
+#home:hover{
+	background: transparent;
+    text-decoration: none;
+}
+.row-ul{
+	display: inline-flex;
+	flex-wrap: nowrap;
+}
+ul.pricing-ul{
+	list-style: none;
+	display: list-item;
+}
+.footers{
+	background-color: #24262b;
+    padding: 13.5px 0;
+	margin-top: 138px;
+	position: relative;
+	
+}
+.footers-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footers-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footers-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #176b29;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footers-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footers-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footers-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footers-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footers-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media screen and (max-width: 767px){
+  .footers-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 574px){
+  .footers-col{
+    width: 100%;
+}
+}
+
+h2{
+	font-size: 30px;
+	color:#fff;
+}
+p{
+	color:rgb(238, 231, 231);
+}
+.has-tooltip:not(.tooltip-disabled) {
+	cursor: help;
+	position:relative;
+}
+
+.has-tooltip:not(.tooltip-disabled):hover
+	.tooltip-container {
+	display: block;
+}
+
+.has-tooltip .tooltip-container {
+	display: none;
+	position: absolute;
+	background-color: #072e33;
+	color:#fff;
+	z-index: 20;
+	bottom: calc(100% + 13px);
+	left: -10px;
+	right: -10px;
+	padding: 16px 20px;
+	border-radius: 8px;
+
+}
+.has-tooltip .tooltip-container:after {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #072e33;
+	font-size: 0;
+	line-height: 0;
+	content: "";
+	position: absolute;
+	bottom: -10px;
+}
+
+.has-tooltip .tooltip-container h6 {
+	font-weight: 600;
+	font-size: 16px;
+	margin: 0px;
+}
+
+.has-tooltip .tooltip-container  {
+	color: #555;
+	margin-top:4px;
+}
+/* - - - - - - - End Tooltips - - - */
+
+#pricing-container * {
+	box-sizing:border-box;
+	flex-wrap: wrap;
+}
+
+#pricing-container {
+	font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	max-width: 1080px;
+	margin: 0 auto 5px;
+	justify-content: center;
+	line-height: 1;
+	color: #000;
+	display: list-item;
+}
+
+
+/* Cards */
+
+#pricing-cards {
+	display: flex;
+	font-size: 14px;
+}
+
+#pricing-container .price-card {
+	background-color: #33333a;
+	color:#fff;
+	font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+	display: block;
+	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+	transition: all 0.25s;
+	position: relative;
+	margin: 0 100px 5px;
+	flex-grow: 1;
+	flex-shrink:1;
+	border-radius: 25px;
+}
+
+#pricing-container .price-card:hover {
+	transform: translateY(-5px);
+		box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.14),
+		0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* - - - - - - - - - Header Section - - - */
+
+#pricing-container .price-card--header {
+	
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#pricing-container .price-card--header h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+	color: #fff;
+	font-family: "Raleway", Helvetica, Arial, Lucida, sans-serif;
+	font-weight: 700;
+}
+
+
+/* - - - - - - - - - Price Section - - - */
+
+#pricing-container .price-card--price {
+	text-align: center;
+	padding: 28px 0 6px 0;
+}
+
+#pricing-container .price-card--price-text {
+	font-size: 48px;
+}
+
+#pricing-container .price-card--price-number {
+	font-weight: 500;
+	opacity: 0.89;
+}
+
+.odometer div {
+	display: inline-block;
+}
+
+#pricing-container .price-card--price-number:before {
+	content: "$";
+	font-size: 24px;
+	top: 1px;
+	display: inline-block;
+	position: relative;
+}
+
+#pricing-container .price-card--price-number:after {
+	content: "/month";
+	font-size: 12px;
+	display: inline-block;
+	color: grey;
+}
+
+#pricing-container .price-card--price-conditions {
+	padding: 14px 0;
+	color: #888;
+	line-height: 1.5;
+}
+
+
+
+
+/* - - - - - - - - - CTA Button Section - - - */
+
+#pricing-container .price-card--cta {
+	padding: 0 20px 24px;
+	text-align: center;
+}
+
+#pricing-container .price-card--cta--button.btn{
+	min-width:20px;
+	display:block;
+	max-width:183px;
+	margin:0 auto;
+}
+
+/* - - - - - - - - - Features Section - - - */
+
+#pricing-container .price-card--features {
+
+	padding: 16px 0 2px;
+}
+
+#pricing-container ul.price-card--features--list {
+	padding: 0 32px;
+	list-style: none;
+	margin: 0 55px;
+	display: list-item;
+	height: auto;
+}
+
+#pricing-container li.price-card--features--item {
+	margin: 10px 0;
+	padding-left: 8px;
+	line-height: 1.5;
+	position: relative;
+	
+}
+
+#pricing-container
+	li.price-card--features--item:not(.features-disabled):before {
+	content: "✓";
+	color: #072e33;
+	display: block;
+	position: absolute;
+	left: -8px;
+}
+
+#pricing-container li.price-card--features--item.features-highlight {
+	 	font-weight: 600;
+}
+
+#pricing-container li.price-card--features--item.features-disabled {
+	opacity: 0.1;
+}
+
+#pricing-container .price-card--mobile-features-toggle {
+	text-align: center;
+	margin: 24px 0 0;
+	padding: 16px 0;
+	cursor: pointer;
+	display: none;
+	color: #072e33;
+}
+
+#pricing-container .price-card--mobile-features-toggle:after {
+	content: "Show All Features ▾";
+}
+#pricing-container .price-card--mobile-features-toggle.hideall:after {
+	content: "Hide Features ▴";
+}
+
+
+#pricing-container .price-card--hero {
+	margin: 0 100px 0;
+	width:31%; 
+	z-index: 10;
+}
+
+#pricing-container .price-card--hero-text {
+	background-color: #072e33;
+	height: 38px;
+	color: white;
+	line-height: 38px;
+	text-align: center;
+	font-weight: 600;
+}
+
+/* - - - - - - - - - Only Yearly Basic Styles - - - */
+
+#pricing-container .only-yearly {
+	position: relative;
+}
+
+#pricing-container .only-yearly .price-card--price-number {
+	transition: opacity 0.2s;
+}
+
+#pricing-container .only-yearly .only-yearly--text {
+	position: absolute;
+	top: -0.2em;
+	left: 0;
+	right: 0;
+	display: none;
+}
+#pricing-container .only-yearly .only-yearly--text span {
+	font-size: 14px;
+}
+
+#pricing-container .only-yearly.if-monthly .price-card--price-number {
+	opacity: 0;
+}
+
+#pricing-container .only-yearly.if-monthly .only-yearly--text {
+	display: block;
+}
+
+/* - - - - - - - - - Switch Section - - - */
+
+#pricing-switch {
+	margin: 80px auto 100px;
+	text-align: center;
+	line-height: 1.4;
+	position: relative;
+	max-width: 1080px;
+}
+
+#pricing-switch .switch-label {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	opacity: 0.4;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 0 20px;
+}
+
+#pricing-switch .switch-label .save-money {
+	color: #072e33;
+	font-style: italic;
+	padding-left: 8px;
+}
+#pricing-switch .save-money--mobile {
+	color: #072e33;
+	font-style: italic;
+	padding-top: 22px;
+	display: none;
+}
+
+#pricing-switch .switch-label.active {
+	font-size: 18px;
+	opacity: 1;
+}
+#pricing-switch .switch-label-monthly {
+	text-align: right;
+}
+#pricing-switch .switch-label-yearly {
+	text-align: left;
+}
+
+#pricing-switch .switch {
+	position: relative;
+	display: inline-block;
+	width: 85px;
+	height: 34px;
+	vertical-align: -50%;
+	margin: 0;
+}
+
+#pricing-switch .switch input {
+	display: none;
+}
+
+#pricing-switch .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #072e33;
+	border-radius: 34px;
+	-webkit-transition: 0.1s;
+	transition: 0.2s;
+}
+
+#pricing-switch .slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	border-radius: 50%;
+	-webkit-transition: 0.1s;
+	transition: 0.2s;
+}
+
+input:checked + .slider {
+	background-color: #072e33;
+}
+
+input:checked + .slider:before {
+	transform: translateX(50px);
+}
+
+
+.btn2{
+	width: 200px;
+	height:45px;
+	background: transparent;
+	border:1px solid #075820;
+	color:#fff;
+	border-radius: 5px;
+	cursor: pointer;
+    margin:2em 5em;
+}
+
+.btn-pro:hover{
+	background: transparent;
+    text-decoration: none;
+}
+.btn-pro{
+	width: 200px;
+	height:45px;
+	background: #072e33;
+	border:none;
+	color:#fff;
+	border-radius: 5px;
+	cursor: pointer;
+    margin:2em 5em;
+	transition: .3s;
+	text-decoration: none;
+	outline: none;
+}
+.switch-label{
+	color:#fff;
+}
+.active{
+	color: #072e33;
+}
+strong{
+	color:#fff;
+}
+@media screen and (max-width: 600px){
+	#pricing-switch .switch {
+		margin-left: 1rem;
+	}
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: url(/img/arm2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    padding: 20px 20%; 
+}
+.contact{
+    height: 100%;
+    width: 1500px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+.contact-form h1{
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #072e33;
+}
+.contact-form p{
+    color: #c6c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 2.8rem;
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input, form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-form form .btn{
+    display: inline-block;
+    background: #072e33;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contact-form form .btn:hover{
+    border: 2px solid #072e33;
+    background: transparent;
+    transform: scale(1.1);
+}
+#home{
+	padding: .6rem .8rem;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	background: #072e33;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid #072e33;
+	transition: .3s;
+	cursor: pointer;
+    border-radius: 10px;
+}
+#home:hover{
+	background: transparent;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px){
+    .contact{
+        margin: 5px;
+        width: auto;
+    }
+}
+@media screen and (max-width:1200px){
+    .contact{
+        margin: 5px;
+        width: auto;
+    }
+}
+
+body.about-body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    background: url(/triciadev.github.io/img/pexels-cesar-galeão-3289711\ \(1\).jpg);
+    background-size: cover;
+	margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: transparent;
+    padding: 90px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 15px;
+    color: #fff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:600px){
+    .inner-container{
+    padding: 1px;
+    }
+}
+@media screen and (max-width:10000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+        
+}
+.inner-container{
+        width: 100%;
+}
+}
+
+#home2{
+	padding: .6rem .8rem;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	background: #072e33;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid #072e33;
+	transition: .3s;
+	cursor: pointer;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+#home2:hover{
+	background: transparent;
+    text-decoration: none;
+}
+h1{
+    color: #072e33;
+}
+body.gallery-body{
+    background-image: url(/triciadev.github.io/img/cover2.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container3 .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container3 .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.container3 .heading h3 span{
+  font-weight: 100;
+}
+.container3 .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container3 .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container3 .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5rem;
+}
+
+.container3 .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.container3 .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+
+@media only screen and (max-width: 769px){
+    .container3 .box{
+   flex-direction: column;
+  }
+
+.container3 .box .dream{
+  width: 100%;
+}
+}
+@media only screen and (max-width: 600px){
+.container3 .heading{
+  width: 100%;
+}
+.container3 .heading h3{
+  font-size: 1em;
+
+}
+}
+h3{
+    color: #fff;
+}
+.btn3{
+	padding: .6rem .8rem;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	background: #072e33;
+	color: rgb(241, 237, 237);
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid #072e33;
+	transition: .3s;
+	cursor: pointer;
+    border-radius: 10px;
+}
+.btn3:hover{
+	background: transparent;
+    text-decoration: none;
+}
+.btn3 a{
+	color: white;
+}
