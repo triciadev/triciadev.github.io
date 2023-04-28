@@ -35,13 +35,13 @@ body{
     text-align: justify;
     margin-bottom: 40px;
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:600px){
     .inner-container{
-    padding: 80px;
+    padding: 1px;
     }
 }
-
-.about-section{
+@media screen and (max-width:10000px){
+    .about-section{
         background-size: 100%;
         padding: 100px 40px;
         
@@ -49,6 +49,8 @@ body{
 .inner-container{
         width: 100%;
 }
+}
+
 #home{
 	padding: .6rem .8rem;
 	text-transform: uppercase;

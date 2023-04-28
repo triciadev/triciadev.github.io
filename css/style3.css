@@ -91,3 +91,15 @@ span{
     text-decoration: none;
 }
 
+@media screen and (max-width:600px){
+    .contact{
+        margin: 5px;
+        width: auto;
+    }
+}
+@media screen and (max-width:1200px){
+    .contact{
+        margin: 5px;
+        width: auto;
+    }
+}

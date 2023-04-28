@@ -33,7 +33,7 @@ body{
 nav{
 	position: fixed;
 	width: 100vw;
-	height: 60px;
+	height: 3rem;
 	border-top: .5rem solid var(--primary-color);
 	display: flex;
 	justify-content: space-between;
@@ -45,7 +45,7 @@ nav{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 55px;
+	height: 4rem;
 	width: 15%;
 	font-weight: 700;
 	background: var(--primary-color);
@@ -66,6 +66,7 @@ ul{
 	display: flex;
 	align-items: center;
 	height: 60px;
+	margin-left: auto;
 }
 
 ul a{
@@ -201,15 +202,32 @@ ul a:hover{
 }
 
 /*responsive*/
-@media(max-width: 767px){
+@media screen and (max-width: 767px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
 }
 }
-@media(max-width: 574px){
+@media screen and (max-width: 574px){
   .footer-col{
     width: 100%;
 }
 }
 
+@media screen and (max-width:600px){
+	.logo{
+		font-size: 10px;
+	}
+	.row{
+		font-size: 10px;
+	}
+	ul{
+		margin-left: 30px ;
+		word-spacing: 10rem;
+	}
+}
+@media screen and (max-width:768px){
+	.logo{
+		width: 18%;
+	}
+}
