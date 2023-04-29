@@ -65,7 +65,7 @@ ul a:hover{
 }
 
 .banner{
-	background: url(/triciadev.github.io/img/gymw.jpeg);
+	background: url(../img/gymw.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -386,7 +386,7 @@ li{
 #pricing-body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
-    background-image: url(/triciadev.github.io/img/pexels-leon-ardho-1552242\ \(1\).jpg);
+    background-image: url(../img/pexels-leon-ardho-1552242\ \(1\).jpg);
     background-size: cover;
     width: auto;
 	background-attachment: fixed;
@@ -916,7 +916,7 @@ strong{
     font-family: 'Josefin Sans', sans-serif;
 }
 #index-body{
-    background-image: url(/triciadev.github.io/img/gymw.jpeg);
+    background-image: url(../img/gymw.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1022,7 +1022,7 @@ span{
     align-items: center;
     justify-content: center;
     background-color: #f1f1f1;
-    background: url(/triciadev.github.io/img/pull.jpg);
+    background: url(../img/pull.jpg);
     background-size: cover;
 	margin: 0;
     padding: 0;
@@ -1089,7 +1089,7 @@ h1{
     color: #072e33;
 }
 #gallery-body{
-    background-image: url(/triciadev.github.io/img/cover2.jpg);
+    background-image: url(../img/cover2.jpg);
     background-size: cover;
     margin: 0;
     padding: 0;
