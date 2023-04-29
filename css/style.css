@@ -383,7 +383,7 @@ li{
 	--secondary-color: #636e72;
 	--font: 'Poppins', sans-serif;
 }
-body.pricing-body{
+#pricing-body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
     background-image: url(/triciadev.github.io/img/pexels-leon-ardho-1552242\ \(1\).jpg);
@@ -915,7 +915,7 @@ strong{
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
-body{
+#index-body{
     background-image: url(/triciadev.github.io/img/gymw.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1016,7 +1016,7 @@ span{
     }
 }
 
-body.about-body{
+#about-body{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -1088,7 +1088,7 @@ body.about-body{
 h1{
     color: #072e33;
 }
-body.gallery-body{
+#gallery-body{
     background-image: url(/triciadev.github.io/img/cover2.jpg);
     background-size: cover;
     margin: 0;
