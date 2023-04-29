@@ -65,7 +65,7 @@ ul a:hover{
 }
 
 .banner{
-	background: url(../img/arm2.png);
+	background: url(../img/gymw.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -915,7 +915,7 @@ strong{
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
-#index-body{
+#contact-body{
     background-image: url(../img/gymw.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
